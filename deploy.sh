@@ -16,7 +16,9 @@ cd dist
 git add -A
 git commit -m 'deploy'
 
-git push -f origin master
+git push
+
+# git push -f origin master
 
 # git main -M master
 # git remote add origin https://github.com/ygs1990/vite-demo.git
@@ -27,9 +29,5 @@ git push -f origin master
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:ygs1990/vite-demo.git master:gh-pages
-
-sc query filelock
-sc query nsffilectl
-pause
 
 cd -
